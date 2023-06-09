@@ -2,7 +2,7 @@ from flask import Blueprint, jsonify, make_response
 import json
 import os
 
-cat_bp = Blueprint(__name__, "cat_bp")
+cat_bp = Blueprint("cat_bp", __name__)
 
 
 @cat_bp.route("/")
