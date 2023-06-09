@@ -1,0 +1,76 @@
+  [
+    {
+      "title": "Visualizações no Youtube",
+      "descri": "Visualizações orgânicas e com engajamento real para o seu vídeo no YouTube, você só precisa escolher o link do seu vídeo e mandar para nós.",
+      "min": 500,
+      "max": 20000,
+      "base": 20,
+      "url_photo": "https://scontent.fimp2-2.fna.fbcdn.net/v/t39.30808-6/353055733_925499078706513_8014604011581446264_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeEr3cSxdCPdy1PqXsVkuszQTp1EkOb5YOdOnUSQ5vlg50-1fSIVHSNElpEseA5QUbXcz3mPwMju6fW0F6_Ns_bB&_nc_ohc=uFDwNPfcrKQAX_ImgBt&_nc_ht=scontent.fimp2-2.fna&oh=00_AfBcbLHNMcFC_N7Qzw6FL2AkPmaj2cKGEFRPF6Ajf2HWmQ&oe=64879EF3",
+      "type": 0,
+      "subType": 0
+    },
+     {
+      "title": "Inscritos no YouTube",
+      "descri": "Inscritos reias e orgânicos que geram engajamento para o seu canal no YouTube.",
+      "min": 100,
+      "max": 10000,
+       "base": 20,
+      "url_photo": "https://scontent.fimp2-2.fna.fbcdn.net/v/t39.30808-6/352725954_925499095373178_6119073997809769348_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeHpmaWLs6AcOgmxFxwV51q1zhDLTLXKfRPOEMtMtcp9E-_I6raqvFy0g3iipvg6zZux3iRUva5JLRKq_k6eFEiE&_nc_ohc=CRlYPTzZmZMAX86wRKl&_nc_ht=scontent.fimp2-2.fna&oh=00_AfCB_97zl69eKCjQZB9mvpIDvuThRAMbHLO9j1JNwKetSQ&oe=64890D71",
+      "type": 0,
+       "subType": 1
+    }, {
+      "title": "Curtidas em vídeos",
+      "descri": "Likes de pessoas reais nos seu vídeo no YouTube.",
+      "min": 100,
+      "max": 10000,
+      "base": 10,
+      "url_photo": "https://scontent.fimp2-2.fna.fbcdn.net/v/t39.30808-6/353030540_925499032039851_459879439902053067_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeHSHroTiCTaaqwZNGaqmaIRaA_h3iXJ3l9oD-HeJcneXxYwNAybmVVpBIjPKMYrFKvqdi-RX7Lj9r56EamR8e0A&_nc_ohc=1vntipY4Jb8AX-IZ-SD&_nc_ht=scontent.fimp2-2.fna&oh=00_AfDZmqPCvtQlh2CM9NAKYpSyJUIZcEfZABbiABx63VufAg&oe=6487464C",
+      "type": 0,
+    "subType": 2
+    }, {
+      "title": "Comentários em vídeo",
+      "descri": "Comentário de pessoas reais em seu vídeo no YouTube.",
+      "min": 10,
+      "max": 30000,
+      "base": 10,
+      "url_photo": "https://scontent.fimp2-2.fna.fbcdn.net/v/t39.30808-6/353047478_925499022039852_7044378298888409526_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeGKI_OLRiZ8-57yWv-WMHu1IJpqUlAtPNggmmpSUC082Ad0BuPXyk-9az75ihXI_ZU5vc8I_YOY3g5gJbSqjTnf&_nc_ohc=xLUkFpLpwfwAX-c95xq&_nc_ht=scontent.fimp2-2.fna&oh=00_AfDp_eYKbLjqiLuXZ2CZb-2GyZvecldJBXWAIYhLd9Tzpg&oe=6488DAAE",
+      "type": 0,
+      "subType": 3
+    }, {
+      "title": "Like em foto/vídeo",
+      "descri": "Curtidas de pessoas reais para as suas fotos no instagram ou vídeos.",
+      "min": 100,
+      "max": 10000,
+      "base": 5,
+      "url_photo": "https://scontent.fimp2-2.fna.fbcdn.net/v/t39.30808-6/353438515_925498988706522_7906156250373743051_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeEfIZC97EB1UBPsqi4T_cTJ_x_pWv1CU-X_H-la_UJT5d4ZDqq5P4ZLsT7zDINiEUj-z3uoVsFr7MvhgFTYPKiz&_nc_ohc=myE-iyqwbLIAX-PwJi0&_nc_ht=scontent.fimp2-2.fna&oh=00_AfCpJgOe2OlQrAB-VEWIPedAnYArNk20zWwuF3weHJIBCA&oe=6487CE93",
+      "type": 1,
+      "subType": 0
+    }, {
+      "title": "Visualizações em reels/storys",
+      "descri": "Visualizações orgânias de pessoas reais para o seu instagram.",
+      "min": 100,
+      "max": 50000,
+      "base": 15,
+      "url_photo": "https://scontent.fimp2-2.fna.fbcdn.net/v/t39.30808-6/353043443_925498948706526_8331214478161913538_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeGtwhN8yvUKDARsQwZS4XNB5v4jzb688wnm_iPNvrzzCQNmPkFIuOYbfZ1P--TDWMRXJryGZZFhedCb2qvcg4Dl&_nc_ohc=NPS5CfMm9pYAX-avwuy&_nc_ht=scontent.fimp2-2.fna&oh=00_AfDwyCdgOw_nCMfvC2d7WXsIK3U7BdtaYZyd9ndiVssFmQ&oe=64877C19",
+      "type": 1,
+    "subType": 1
+    }, {
+      "title": "Seguidores no instagram",
+      "descri": "Melhor qualidade de seguidores para o seu instagram!",
+      "min": 100,
+      "max": 60000,
+      "base": 5,
+      "url_photo": "https://scontent.fimp2-2.fna.fbcdn.net/v/t39.30808-6/353055710_925498905373197_2835540716525170988_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeFwp01msT3KXeoZznuwiFSuDWJ7BzYQiC4NYnsHNhCILuu2bVNHJVIf1EES-bZLlh2HJfJ-8nkClHVLPG9BR74A&_nc_ohc=-qwQ0BPCW6AAX_ktYax&_nc_ht=scontent.fimp2-2.fna&oh=00_AfBTCrILg2pqAZTlotC-5PR9Z5fVYQICo-Xz1z0EdcKtNQ&oe=6488CCFB",
+      "type": 1,
+    "subType": 2
+    }, {
+      "title": "",
+      "descri": "",
+      "min": 0,
+      "max": 0,
+      "base": 0,
+      "url_photo": "",
+      "type": 0,
+    "subType": 3
+    }
+  ]
