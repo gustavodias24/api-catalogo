@@ -5,8 +5,11 @@ import os
 cat_bp = Blueprint(__name__, "cat_bp")
 
 
+@cat_bp.route("/")
+def index():
+    return jsonify({"msg": "Deus é fiél."})
 @cat_bp.route("/<string:type>/<string:subType>")
-def index(type, subType):
+def get(type, subType):
     path = os.path.join(os.getcwd(), "dados.json")
     with open(path) as data:
         payload = json.load(data)
