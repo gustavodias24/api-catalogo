@@ -1,5 +1,6 @@
   [
     {
+      "_id": 1,
       "title": "Visualizações no Youtube",
       "descri": "Visualizações orgânicas e com engajamento real para o seu vídeo no YouTube, você só precisa escolher o link do seu vídeo e mandar para nós.",
       "min": 500,
@@ -10,17 +11,19 @@
       "subType": 0
     },
      {
+        "_id": 2,
       "title": "Inscritos no YouTube",
-      "descri": "Inscritos reias e orgânicos que geram engajamento para o seu canal no YouTube.",
+      "descri": "Aprimore o engajamento do seu canal no YouTube com inscritos genuínos e orgânicos.",
       "min": 100,
       "max": 10000,
-       "base": 20,
+       "base": 30,
       "url_photo": "https://scontent.fimp2-2.fna.fbcdn.net/v/t39.30808-6/352725954_925499095373178_6119073997809769348_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeHpmaWLs6AcOgmxFxwV51q1zhDLTLXKfRPOEMtMtcp9E-_I6raqvFy0g3iipvg6zZux3iRUva5JLRKq_k6eFEiE&_nc_ohc=CRlYPTzZmZMAX86wRKl&_nc_ht=scontent.fimp2-2.fna&oh=00_AfCB_97zl69eKCjQZB9mvpIDvuThRAMbHLO9j1JNwKetSQ&oe=64890D71",
       "type": 0,
        "subType": 1
     }, {
+     "_id": 3,
       "title": "Curtidas em vídeos",
-      "descri": "Likes de pessoas reais nos seu vídeo no YouTube.",
+      "descri": "Obtenha likes autênticos de usuários reais nos seus vídeos do YouTube.",
       "min": 100,
       "max": 10000,
       "base": 10,
@@ -28,8 +31,9 @@
       "type": 0,
     "subType": 2
     }, {
+     "_id": 4,
       "title": "Comentários em vídeo",
-      "descri": "Comentário de pessoas reais em seu vídeo no YouTube.",
+      "descri": "Receba comentários legítimos de pessoas reais em seus vídeos no YouTube.",
       "min": 10,
       "max": 30000,
       "base": 10,
@@ -37,8 +41,9 @@
       "type": 0,
       "subType": 3
     }, {
+     "_id": 5,
       "title": "Like em foto/vídeo",
-      "descri": "Curtidas de pessoas reais para as suas fotos no instagram ou vídeos.",
+      "descri": "Receba curtidas autênticas de pessoas reais em suas fotos no Instagram ou vídeos.",
       "min": 100,
       "max": 10000,
       "base": 5,
@@ -46,8 +51,9 @@
       "type": 1,
       "subType": 0
     }, {
+     "_id": 6,
       "title": "Visualizações em reels/storys",
-      "descri": "Visualizações orgânias de pessoas reais para o seu instagram.",
+      "descri": "Aumente o alcance do seu perfil no Instagram com visualizações orgânicas provenientes de pessoas reais e engajadas.",
       "min": 100,
       "max": 50000,
       "base": 15,
@@ -55,8 +61,9 @@
       "type": 1,
     "subType": 1
     }, {
+     "_id": 7,
       "title": "Seguidores no instagram",
-      "descri": "Melhor qualidade de seguidores para o seu instagram!",
+      "descri": "Eleve a qualidade dos seus seguidores no Instagram para um público mais engajado e relevante.",
       "min": 100,
       "max": 60000,
       "base": 5,
@@ -64,13 +71,14 @@
       "type": 1,
     "subType": 2
     }, {
-      "title": "",
-      "descri": "",
-      "min": 0,
-      "max": 0,
-      "base": 0,
+     "_id": 8,
+      "title": "Comentários para o Instagram.",
+      "descri": "Obtenha comentários de alta qualidade para o seu perfil no Instagram, provenientes de usuários genuínos e engajados.",
+      "min": 10,
+      "max": 1000,
+      "base": 5,
       "url_photo": "",
-      "type": 0,
+      "type": 1,
     "subType": 3
     }
   ]
