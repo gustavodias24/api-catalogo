@@ -1,4 +1,4 @@
-from flask import Blueprint, jsonify, make_response
+from flask import Blueprint, jsonify, make_response, request
 from pymongo import MongoClient
 from decouple import config
 
@@ -7,11 +7,13 @@ uri_db = "mongodb+srv://{}:{}@cluterb.ypmgnks.mongodb.net/?retryWrites=true&w=ma
 )
 
 client = MongoClient(
-        "mongodb+srv://benicio:233281@cluterb.ypmgnks.mongodb.net/?retryWrites=true&w=majority"
-    )
+    "mongodb+srv://benicio:233281@cluterb.ypmgnks.mongodb.net/?retryWrites=true&w=majority"
+)
 
 db = client["catalogoDB"]
-col = db["produtos"]
+col_produtos = db["produtos"]
+col_pedidos = db["pedidos"]
+
 
 cat_bp = Blueprint("cat_bp", __name__)
 
@@ -23,12 +25,11 @@ def index():
 
 @cat_bp.route("/<int:t>/<int:subType>")
 def get(t, subType):
-
-    result = col.find_one(
+    result = col_produtos.find_one(
         {
-           "type": t,
-           "subType": subType
-         }
+            "type": t,
+            "subType": subType
+        }
     )
 
     if result is not None:
@@ -38,3 +39,12 @@ def get(t, subType):
             jsonify({"error": True, "type": t, "subType": subType, "result": result}),
             400
         )
+
+
+@cat_bp.route("/myWebHook", methods=["POST"])
+def verify_payers():
+    payload = request.get_json()
+
+    col_pedidos.insert_one(payload)
+
+    return make_response(jsonify({"msg": "ok"}), 200)
