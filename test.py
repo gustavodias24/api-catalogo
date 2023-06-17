@@ -1,12 +1,11 @@
+import requests
 from decouple import config
-from pymongo import MongoClient
+base = "https://api.mercadopago.com"
+headers = {
+    "Authorization": "Bearer " + config("TOKEN_MP")
+}
 
-client = MongoClient(
-    "mongodb+srv://{}:{}@cluterb.ypmgnks.mongodb.net/?retryWrites=true&w=majority"
-    .format(config("USER"), config("PASS"))
-)
+resp = requests.get("{}/v1/payments/{}".format(base, "59531690114"), headers=headers)
 
-db = client["catalogoDB"]
-col = db["produtos"]
-
-print(col.find_one({"type": 0, "subType": 1}))
+print(resp.json()["status"])
+print(resp.json()["transaction_amount"])
