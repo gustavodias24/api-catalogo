@@ -77,3 +77,23 @@ def save_orde():
     col_pedidos.insert_one(payload)
 
     return jsonify(payload)
+
+
+@cat_bp.route("/verificarPagamento", methods=["POST"])
+def is_safe():
+    payload = request.get_json()
+
+    pedido = col_pedidos.find_one({"_id": payload["msg"]})
+
+    if pedido["status"] == "approved":
+        code = 200
+        msg = {
+            "msg": "ok"
+        }
+    else:
+        code = 400
+        msg = {
+            "msg": "status not approved"
+        }
+
+    return make_response(jsonify(msg), code)
