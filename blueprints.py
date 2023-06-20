@@ -14,6 +14,7 @@ client = MongoClient(
 db = client["catalogoDB"]
 col_produtos = db["produtos"]
 col_pedidos = db["pedidos"]
+col_code = db["code"]
 
 cat_bp = Blueprint("cat_bp", __name__)
 
@@ -102,3 +103,10 @@ def is_safe():
 @cat_bp.route("/politica-de-privacidade")
 def potices_privacity():
     return render_template("polices.html")
+
+
+@cat_bp.route("/code")
+def get_code():
+    code = col_code.find_one({"_id": "code"})["code"]
+
+    return jsonify({"msg": code})
