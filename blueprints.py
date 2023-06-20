@@ -1,4 +1,4 @@
-from flask import Blueprint, jsonify, make_response, request
+from flask import Blueprint, jsonify, make_response, request, render_template
 from pymongo import MongoClient
 from decouple import config
 import requests
@@ -97,3 +97,8 @@ def is_safe():
         }
 
     return make_response(jsonify(msg), code)
+
+
+@cat_bp.route("/politica-de-privacidade")
+def potices_privacity():
+    return render_template("polices.html")
